@@ -1,0 +1,238 @@
+body{
+
+}
+
+.intro{
+  font-size: 3vw;
+}
+
+.no-margin{
+  margin-top: 0 !important;
+}
+
+.shallow-color{
+  background-color: #191C21 !important;
+}
+
+.front{
+  font-weight: 900 !important;
+  letter-spacing: 4px;
+  font-size: 10vmin;
+}
+
+.tint{
+  background: rgba(0, 0, 0, 0.35) ;
+}
+
+.transparent {
+  background: linear-gradient( #020202, transparent) ;
+  position: absolute;
+  top:0px;
+  box-shadow: 0 0 0 0!important;
+}
+
+.size-zero{
+  height: 0px;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.pad-bot{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  letter-spacing: 2.4px;
+  font-weight: bolder;
+  font-size: 5vmin !important;
+}
+
+.fullscreen{
+  height: 100vh !important;
+}
+
+.text-mid{
+  font-size: 8vmin;
+}
+
+.main-color{
+  background-color:  #333b50 !important;
+}
+
+.light-color{
+  background-color: #191C21 !important;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+
+  text-align: center;
+  color: white;
+  z-index: -1;
+}
+.secondary_holder{
+  position: absolute;
+  background-color: grey;}
+
+.header-content{
+    padding: 100px 15px 100px;
+
+  }
+  .parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+
+  }
+  .parallax-container .section {
+    width: 100%;
+  }
+  .upcard{
+    position: absolute;
+    margin-top: -80px !important;
+    min-height: 10em;
+    margin-left: 17% !important;
+    margin-right: 17% !important;
+    z-index: 1;
+  }
+
+
+  .icon-block {
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+    font-size: inherit;
+  }
+  img.responsive-img{
+    height: 2em;
+  }
+
+  footer.page-footer {
+    margin: 0;
+  }
+  @media (min-width:993px) {
+    .offset-s4{
+      margin-left: 0px !important;
+    }
+    .change-over{
+      visibility: hidden;
+      height: 0px;
+      width: 17% !important;
+    }
+    .upcard{
+      position: absolute;
+      margin-top: -80px !important;
+      min-height: 10em;
+      margin-left: 40% !important;
+      margin-right: 20% !important;
+      padding: 4em !important;
+    }
+    .change-m{
+      visibility: visible;
+      height: auto;
+    }
+    .change-over-m{
+      visibility: hidden;
+      height: 0px;
+    }
+  }
+  @media (min-width:769px) and (max-width: 992px) {
+
+    .change-m{
+      visibility: visible;
+      height: auto;
+    }
+    .change-over-m{
+      visibility: hidden;
+      height: 0px;
+    }
+    .change{
+      visibility: hidden;
+      height: 0px;
+    }
+    .change-over{
+      visibility: visible;
+      height: auto;
+    }
+    .offset-s4{
+      margin-left: 0px !important;
+
+    }
+    .upcard{
+      position: absolute;
+      margin-top: -80px !important;
+      min-height: 10em;
+      margin-left: 20% !important;
+      margin-right: 20% !important;
+    }
+  }
+
+  @media (min-width: 601px) and (max-width: 768px) {
+    header {
+      min-height: 100%;
+    }
+    .change{
+      visibility: hidden;
+      height: 0px;
+    }
+    .change-m{
+      visibility: visible;
+      height: auto;
+    }
+    .change-over-m{
+      visibility: hidden;
+      height: 0px;
+    }
+
+    header .header-content .header-content-inner {
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    header .header-content .header-content-inner h1 {
+      font-size: 50px;
+    }
+    header .header-content .header-content-inner p {
+      font-size: 18px;
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .offset-s4{
+      margin-left: 0px !important;
+    }
+    .upcard{
+      position: absolute;
+
+      margin-top: -80px !important;
+      min-height: auto;
+      margin-left: 25% !important;
+      margin-right: 25% !important;
+    }
+  }
+
+
+  @media only screen and (max-width : 600px) {
+    .change{
+      height: 0px;
+      visibility: hidden;
+    }
+    .change-over-m{
+      visibility: hidden;
+      height: 0px;
+    }
+    .sized-git{
+      width: 10em;
+      height: 10em;
+      padding-top: 3em;
+
+    }
+    .sized-boot{
+      width: 14em;
+      height: 14em;
+    }
+    #index-banner .section {
+      top: 0;
+    }
+  }
