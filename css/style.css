@@ -53,6 +53,14 @@ body{
   font-size: 8vmin;
 }
 
+
+.text-small{
+  font-size: 1.5em;
+}
+.large{
+  font-size: 1.2em;
+}
+
 .main-color{
   background-color:  #333b50 !important;
 }
@@ -70,6 +78,7 @@ header {
   color: white;
   z-index: -1;
 }
+
 .secondary_holder{
   position: absolute;
   background-color: grey;}
@@ -96,7 +105,11 @@ header {
     margin-right: 17% !important;
     z-index: 1;
   }
-
+.end{
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+}
 
   .icon-block {
     padding: 0 15px;
@@ -109,9 +122,50 @@ header {
   }
 
   footer.page-footer {
-    margin: 0;
+    position: relative;
+    background-image: url("../img/me_full.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50vw 100%;
   }
-  @media (min-width:993px) {
+@media (min-width:1501px) {
+  footer.page-footer {
+
+    background-size: contain;
+
+  }
+  .offset-s2{
+    margin-left: 0px !important;
+  }
+  .change-over{
+    visibility: hidden;
+    height: 0px;
+    width: 17% !important;
+  }
+  .upcard{
+    position: absolute;
+    margin-top: -80px !important;
+    min-height: 10em;
+    margin-left: 40% !important;
+    margin-right: 20% !important;
+    padding: 4em !important;
+  }
+  .change-m{
+    visibility: visible;
+    height: auto;
+  }
+  .change-over-m{
+    visibility: hidden;
+    height: 0px;
+  }
+  .fullscreen{
+    height: 60vh !important;
+  }
+
+}
+
+  @media (min-width:993px) and (max-width:1500px){
+
     .offset-s4{
       margin-left: 0px !important;
     }
@@ -122,7 +176,7 @@ header {
     }
     .upcard{
       position: absolute;
-      margin-top: -80px !important;
+      margin-top: -130px !important;
       min-height: 10em;
       margin-left: 40% !important;
       margin-right: 20% !important;
@@ -136,8 +190,24 @@ header {
       visibility: hidden;
       height: 0px;
     }
+    .fullscreen{
+      height: 100vh !important;
+    }
+    footer.page-footer {
+
+      background-size: contain;
+
+    }
+    .offset-s2{
+      margin-left: 0px !important;
+    }
   }
   @media (min-width:769px) and (max-width: 992px) {
+    footer.page-footer {
+
+      background-size: contain;
+
+    }
 
     .change-m{
       visibility: visible;
@@ -166,9 +236,17 @@ header {
       margin-left: 20% !important;
       margin-right: 20% !important;
     }
+    .offset-s2{
+      margin-left: 0px !important;
+    }
   }
 
   @media (min-width: 601px) and (max-width: 768px) {
+    footer.page-footer {
+
+      background-size: contain;
+
+    }
     header {
       min-height: 100%;
     }
@@ -179,6 +257,9 @@ header {
     .change-m{
       visibility: visible;
       height: auto;
+    }
+    .offset-s4{
+      margin-left: 0px !important;
     }
     .change-over-m{
       visibility: hidden;
@@ -202,6 +283,10 @@ header {
     .offset-s4{
       margin-left: 0px !important;
     }
+
+    .offset-s2{
+      margin-left: 0px !important;
+    }
     .upcard{
       position: absolute;
 
@@ -214,6 +299,12 @@ header {
 
 
   @media only screen and (max-width : 600px) {
+    footer.page-footer {
+      background-image: none;
+    }
+    .mid{
+      text-align: center;;
+    }
     .change{
       height: 0px;
       visibility: hidden;
