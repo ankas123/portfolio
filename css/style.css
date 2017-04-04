@@ -161,6 +161,9 @@ header {
   .fullscreen{
     height: 80vh !important;
   }
+  .offset-s4{
+    margin-left: 0px !important;
+  }
 
 }
 
